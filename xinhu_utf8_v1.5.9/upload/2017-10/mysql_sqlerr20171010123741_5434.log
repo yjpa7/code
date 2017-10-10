@@ -1,0 +1,28 @@
+【错误SQL】
+select * from xinhu_flow_extent where 1=1      order by  modename desc    limit 0,15
+
+【原因】
+Unknown column 'modename' in 'order clause'
+
+【URL】
+http://xinhu.com/xinhu_utf8_v1.5.9/index.php?a=publicstore&m=view&d=main&ajaxbool=true&rnd=856619
+
+【POST】
+[tablename_abc]：if0qfi0qmf0qqy0qff0ui0vc0qfy0qfq0cm0ym0qfy0iy0qqf0yq0vy014
+[defaultorder]：
+[keywhere]：
+[where]：
+[sort]：modename
+[dir]：desc
+[loadci]：2
+[storebeforeaction]：
+[storeafteraction]：afterstroesss
+[modenum]：
+[start]：0
+[limit]：15
+
+【IP】
+127.0.0.1
+
+【浏览器】
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
