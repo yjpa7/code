@@ -5,7 +5,9 @@
 <html>
 <head>
 	<title></title>
-	<link rel="stylesheet" type="text/css" href="mode/bootstrap3.3/css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="mode/bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="mode/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css"/>
+	<link rel="stylesheet" type="text/css" href="mode/bootstrap-3.3.7-dist/js/bootstrap.min.js"/>
 	<script type="text/javascript" src="web/res/js/jquery.1.9.1.min.js"></script>
 </head>
 <body>
