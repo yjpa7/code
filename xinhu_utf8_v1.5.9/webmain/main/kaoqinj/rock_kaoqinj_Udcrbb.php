@@ -1,10 +1,8 @@
-
-
-//订餐日报表
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>订餐日报表</title>
+	<?php require(ROOT_PATH.'/include/Udb.php'); ?>
 	<link rel="stylesheet" type="text/css" href="mode/bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
 	<link rel="stylesheet" type="text/css" href="mode/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css"/>
 	<link rel="stylesheet" type="text/css" href="mode/bootstrap-3.3.7-dist/js/bootstrap.min.js"/>
