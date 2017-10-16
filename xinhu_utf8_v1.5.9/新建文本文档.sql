@@ -11,3 +11,20 @@ alter table xinhu_kqjsn add purpose char(1) not null default 'k' comment '用途
 流程模块-》表单元素管理-》新增
 
 
+###########创建订餐原始记录表，就餐原始记录表，日报表###########
+
+create table xinhu_dcycjl (
+id int auto_increment comment '自增主键',
+dckh char(16) comment '订餐卡号',
+dcxm char(12) comment'订餐姓名',
+dcjwz char(4) comment'订餐机位置,jjjl|九江,qyjl|清远,yj|赢伽,kt|凯庭,yls|雅尼斯,yx|营销',
+dcjip char(15) comment '订餐机IP',
+dcsj datetime comment '刷卡时间',
+dctype char(2) comment '订餐类型,sg|手工,sk|刷卡',
+primary key (id)
+)comment '订餐原始记录表'
+
+
+测试：insert into xinhu_dcycjl (dckh,dcxm,dcjwz,dcjip,dcsj,dctype) 
+values ("1205","一三四","jjjl","192.168.0.52","2017-10-21 15:30:00.000","sk")
+
