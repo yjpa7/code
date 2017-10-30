@@ -33,3 +33,21 @@ primary key (id)
 测试：insert into xinhu_dcycjl (dckh,dcxm,dcjwz,dcjip,dcsj,dctype) 
 values ("1205","一三四","jjjl","192.168.0.52","2017-10-21 15:30:00.000","sk")
 
+
+#######机器列表 xinhu_machinelist######
+create table xinhu_machinelist(
+id int auto_increment,
+primary key (id),
+jqip char(15) not null comment '机器IP',
+jpwz char(4) not null comment '机器位置，jjql|九江伽蓝，qyql|清远伽蓝，kt|凯庭卫浴，yx|营销中心，yqsw|赢伽商务',
+jqtype char(2) not null comment '机器类型，订餐机，消费机，考勤机',
+jqpp char(20) comment '机器品牌',
+jqxh char(30) comment '机器型号',
+jqgmrq date comment '机器购买日期',
+)comment '机器列表'
+
+
+######用户表添加卡号######
+alter table xinhu_admin add kahao char(16) not null default '0000000000000000' comment 'ID卡号';
+
+
