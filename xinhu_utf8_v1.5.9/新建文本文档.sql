@@ -1,3 +1,8 @@
+git add .
+git commit -m "更改的内容"
+git push git@github.com:yjpa7/code.git
+
+
 ###xinhu 插入考勤记录示例###
 INSERT INTO xinhu_kqdkjl (uid,dkdt,optdt,type,ip,snid,sntype) VALUES ("2","2017-09-28 09:32:33","2017-09-28 09:32:33","1","192.168.0.33","1","1")
 
