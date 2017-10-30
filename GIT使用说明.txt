@@ -1,3 +1,0 @@
-git add .
-git commit -m "¸üĞÂÄÚÈİ"
-git push git@github.com:yjpa7/code.git
